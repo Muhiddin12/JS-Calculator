@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+.kalkulyator {
+  height: 580px;
+  width: 420px;
+  background-color: black;
+  margin-top: 14px;
+}
+.ekran {
+  width: 100%;
+  height: 20%;
+  box-sizing: border-box;
+  caret-color: white;
+  font-size: 60px;
+}
+table {
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  height: 80%;
+}
+td {
+  text-align: center;
+}
+.tozalovchi {
+  background-color: rgb(221, 83, 240);
+}
+td:hover {
+  background-color: rgb(48, 102, 173);
+  cursor: pointer;
+}
